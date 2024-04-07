@@ -85,11 +85,12 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ## Unfixed Bugs
 * I was unable to get the Kaggle API to recognise the root directory in the VS code environment, so the data was manually uploaded. 
+* I ran out of time to complete this project, on my next attempt I hope to substantively build a functioning machine learning image classifier.
 
 ## Deployment
 ### Heroku
 
-* The App live link is: https://YOUR_APP_NAME.herokuapp.com/ 
+* The App live link is: https://cherry-leaves-ml-d220bd96c860.herokuapp.com/ 
 * Set the runtime.txt Python version to a [Heroku-20](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version.
 * The project was deployed to Heroku using the following steps.
 
@@ -97,8 +98,7 @@ To save time in this process, the IT team suggested an ML system that detects in
 2. At the Deploy tab, select GitHub as the deployment method.
 3. Select your repository name and click Search. Once it is found, click Connect.
 4. Select the branch you want to deploy, then click Deploy Branch.
-5. The deployment process should happen smoothly if all deployment files are fully functional. Click now the button Open App on the top of the page to access your App.
-6. If the slug size is too large then add large files not required for the app to the .slugignore file. 
+5. The deployment process required logging into the Heroku CLI and changing to a previously supported runtime version. 
 
 
 ## Main Data Analysis and Machine Learning Libraries
@@ -107,19 +107,19 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ## Credits 
 
-* In this section, you need to reference where you got your content, media and from where you got extra help. It is common practice to use code from other repositories and tutorials. However, it is necessary to be very specific about these sources to avoid plagiarism. 
-* You can break the credits section up into Content and Media, depending on what you have included in your project. 
+* Although unfinished, the existing processes and some code was taken from Code Institute walkthrough project 'Malaria Detector' by Gyan Shashwat1611.
+https://github.com/GyanShashwat1611/WalkthroughProject01/
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A.
+- .
 - Instructions on how to implement form validation on the Sign-Up page were taken from [Specific YouTube Tutorial](https://www.youtube.com/).
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
 
 ### Media
 
-- The photos used on the home and sign-up page are from This Open-Source site.
-- The images used for the gallery page were taken from this other open-source site.
+- The images used for the project were taken from Code Institute's kaggle page.
+https://www.kaggle.com/datasets/codeinstitute/cherry-leaves
 
 
 
