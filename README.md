@@ -107,14 +107,14 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ## Credits 
 
-* Although unfinished, the existing processes and some code was taken from Code Institute walkthrough project 'Malaria Detector' by Gyan Shashwat1611.
+* Although unfinished, the existing processes and certain code was taken from Code Institute walkthrough project 'Malaria Detector' by Gyan Shashwat.
 https://github.com/GyanShashwat1611/WalkthroughProject01/
 
 ### Content 
 
 - .
 - Instructions on how to implement form validation on the Sign-Up page were taken from [Specific YouTube Tutorial](https://www.youtube.com/).
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
+
 
 ### Media
 
