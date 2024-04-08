@@ -86,6 +86,7 @@ To save time in this process, the IT team suggested an ML system that detects in
 ## Unfixed Bugs
 * I was unable to get the Kaggle API to recognise the root directory in the VS code environment, so the data was manually uploaded. 
 * I ran out of time to complete this project, on my next attempt I hope to substantively build a functioning machine learning image classifier.
+* Package compatibility issues, also mean that fully updated streamlit to the extent of the project to date was not possible.
 
 ## Deployment
 ### Heroku
@@ -113,7 +114,7 @@ https://github.com/GyanShashwat1611/WalkthroughProject01/
 ### Content 
 
 - .
-- Instructions on how to implement form validation on the Sign-Up page were taken from [Specific YouTube Tutorial](https://www.youtube.com/).
+- 
 
 
 ### Media
