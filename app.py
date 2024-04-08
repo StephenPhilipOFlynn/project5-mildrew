@@ -4,7 +4,7 @@ st.title('Mildew in Cherry leaves')
 
 st.write("This is a simple dashboard, to show conclusions of the machine learning task on distinguishing cherry leaves with mildew")
 
-st.write("Project Summary")
+st.write("Project Summary - Apologies I ran out of time to complete this project. I will try again at next attempt")
 
 st.info(
     "**General Information**\n"

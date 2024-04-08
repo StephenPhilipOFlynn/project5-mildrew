@@ -103,7 +103,9 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 
 ## Main Data Analysis and Machine Learning Libraries
-* Here you should list the libraries used in the project and provide an example(s) of how you used these libraries.
+* Here you should list the libraries. 
+* Pillow Image for data review.
+* Numpy, Tensor and Matplotlib for average image analysis and visualisation.
 
 
 ## Credits 
