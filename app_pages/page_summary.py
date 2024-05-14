@@ -1,8 +1,9 @@
 import streamlit as st
+import matplotlib.pyplot as plt
 
 st.title('Mildew in Cherry leaves')
 
-st.write("This is a simple dashboard, to show conclusions of the machine learning task on distinguishing cherry leaves with mildew")
+st.write("This is a dashboard overview, of a machine learning task on distinguishing cherry leaves with mildew")
 
 st.write("Project Summary")
 
