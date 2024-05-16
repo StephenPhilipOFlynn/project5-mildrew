@@ -1,3 +1,4 @@
+"""
 import streamlit as st
 import matplotlib.pyplot as plt
 
@@ -23,3 +24,4 @@ st.success(
     "1 - The client is interested in conducting a study to visually differentiate a healthy cherry leaf from one with powdery mildew."
     "2 - The client is interested in predicting if a cherry leaf is healthy or contains powdery mildew."
 )
+"""
