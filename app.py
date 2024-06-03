@@ -1,24 +1,22 @@
 import streamlit as st
+from app_pages.multipage import MultiPage
 
-st.title('Mildew in Cherry leaves')
+"""
+# load pages scripts
+from app_pages.page_summary import page_summary_body
+from app_pages.page_visualiser import page_mildew_visualiser_body
+from app_pages.page_mildew_detector import page_mildew_detector_body
+from app_pages.page_project_hypothesis import page_project_hypothesis_body
+from app_pages.page_ml_performance import page_ml_performance_metrics
 
-st.write("This is a simple dashboard, to show conclusions of the machine learning task on distinguishing cherry leaves with mildew")
+app = MultiPage(app_name= "Mildew Detector") # Create an instance of the app 
 
-st.write("Project Summary")
+# Add your app pages here using .add_page()
+app.add_page("Quick Project Summary", page_summary_body)
+app.add_page("Visualiser", page_visualiser_body)
+app.add_page("Mildew Detection", page_mildew_detector_body)
+app.add_page("Project Hypothesis", page_project_hypothesis_body)
+app.add_page("ML Performance Metrics", page_ml_performance_metrics)
 
-st.info(
-    "**General Information**\n"
-    "**Project Dataset**\n"
-    "*   \n"  
-    " \n"  
-    "a.")  
-
-st.write(
-    "* For additional information, please visit and **read** the "
-    "[Project README file](https://github.com/StephenPhilipOFlynn/project5-mildrew).")
-
-st.success(
-    "The project has 2 business requirements:\n"
-    "1 - The client is interested in conducting a study to visually differentiate a healthy cherry leaf from one with powdery mildew."
-    "2 - The client is interested in predicting if a cherry leaf is healthy or contains powdery mildew."
-)
+app.run() # Run the  app
+"""
