@@ -27,10 +27,10 @@ def page_summary_body():
     "1 - The client is interested in conducting a study to visually differentiate a healthy cherry leaf from one with powdery mildew.\n\n"
     "2 - The client is interested in predicting if a cherry leaf is healthy or contains powdery mildew fungus.")
 
-
-st.write("### Project Hypothesis and Validation")
-
-st.success(
+def page_summary_hypothesis():
+    st.write("### Project Hypothesis and Validation")
+    
+    st.success(
         """We hypothesise that mildew-infected leaves exhibit distinct visual characteristics, 
         that can be distinguished from healthy plants using image classification machine learning techniques.""")
         ### add further details on validation here 
