@@ -21,7 +21,7 @@ def page_visualiser_body():
           diff_between_avgs = plt.imread(f"outputs/{version}/avg_diff.png")
 
           st.warning(
-            f"We notice that while some visual difference is noticeable between a healthy leaf and a poweder mildew infected leaf")
+            f"We notice that while some visual difference is noticeable between a healthy leaf and a powdery mildew infected leaf.")
             #show difference
           st.image(diff_between_avgs, caption='Difference between average images')
 

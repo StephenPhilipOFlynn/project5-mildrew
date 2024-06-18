@@ -11,9 +11,7 @@ from app_pages.page_ml_performance import page_ml_performance_metrics
 from app_pages.page_visualiser import page_visualiser_body
 
 
-#from app_pages.page_summary import page_mildew_visualiser_body
-#from app_pages.page_mildew_detector import page_mildew_detector_body
-# from app_pages.page_ml_performance import page_ml_performance_metrics
+
 
 app = MultiPage(app_name= "Mildew Detector") # Create an instance of the app 
 
