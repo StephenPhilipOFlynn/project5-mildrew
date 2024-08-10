@@ -10,7 +10,7 @@ def resize_input_image(img, version):
     """ 
     Reshape image
     """ 
-    image_shape = load_pkl_file(file_path=f"outputs/{version}/image_shape.pk1")
+    image_shape = load_pkl_file(file_path=f"outputs/{version}/image_shape.pkl")
     img_resized = img.resize((image_shape[1], image_shape[0]), Image.ANTIALIAS)
     my_image = np.expand_dims(img_resized, axis=0) / 255
 
