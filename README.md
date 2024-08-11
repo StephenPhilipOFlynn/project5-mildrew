@@ -1,7 +1,6 @@
 ## Dataset Content
 * The dataset is sourced from Code Institute's Kaggle page, [Kaggle](https://www.kaggle.com/codeinstitute/cherry-leaves). We then created a fictitious user story where predictive analytics can be applied in a real project in the workplace.
-* The dataset contains +4 thousand images taken from the client's crop fields. The images show healthy cherry leaves and cherry leaves that have powdery mildew, a fungal disease that affects many plant species. The cherry plantation crop is one of the finest products in their portfolio, and the company is concerned about supplying the market with a compromised quality product.
-
+* The dataset contains over 4000 images taken from the client's crop fields. The images show healthy cherry leaves and cherry leaves that have powdery mildew, a fungal disease that affects many plant species. The cherry plantation crop is one of the finest products in their portfolio, and the company is concerned about supplying the market with a compromised quality product.
 
 
 ## Business Requirements
@@ -32,11 +31,12 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 
 ## Unfixed Bugs
-* I was unable to get the Kaggle API to recognise the root directory in the VS code environment, so the data was manually uploaded. 
-* I ran out of time to complete this project, on my next attempt I hope to substantively build a functioning machine learning image classifier.
-* The project was slightly too large (509.8mb) for updated deployment and I did not resolve prior to the deadline.
+* The data was manually uploaded to the VS Code workspace rather than using Kaggle's API. 
 
 ## Deployment
+* The dashboard was first deployed on the 7 April 2024 on Heroku.
+* The dashboard was redeployed on the 11 August 2024 on Heroku.
+
 ### Heroku
 
 * The App live link is: https://cherry-leaves-ml-d220bd96c860.herokuapp.com/ 
@@ -52,13 +52,12 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ## Main Data Analysis and Machine Learning Libraries
 * Here you should list the libraries. 
-* Pillow Image for data review.
-* Numpy, Tensor and Matplotlib for average image analysis and visualisation.
-
+* Pillow, Numpy, Pandas, Matplotlib, Seaborn, SciKit, TensorFlow, Keras, Altair for machine learning and data analysis and visualisation.
+* Streamlit for dashboard.
 
 ## Credits 
 
-* Although unfinished, the existing processes and certain code was taken from Code Institute walkthrough project 'Malaria Detector' by Gyan Shashwat.
+* Code Institute walkthrough project 'Malaria Detector' by Gyan Shashwat, provided guidance on structuring this Machine Learning Project.
 https://github.com/GyanShashwat1611/WalkthroughProject01/
 
 ### Content 
@@ -69,10 +68,10 @@ https://github.com/GyanShashwat1611/WalkthroughProject01/
 
 ### Media
 
-- The images used for the project were taken from Code Institute's kaggle page.
+- The image set used for the project were taken from Code Institute's kaggle page.
 https://www.kaggle.com/datasets/codeinstitute/cherry-leaves
 
 
 
 ## Acknowledgements (optional)
-* Thank the people that provided support throughout this project.
+* 
