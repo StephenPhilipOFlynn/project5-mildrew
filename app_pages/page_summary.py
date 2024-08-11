@@ -31,7 +31,8 @@ def page_summary_hypothesis():
     st.write("### Project Hypothesis and Validation")
     
     st.success(
-        """We hypothesise that mildew-infected leaves exhibit distinct visual characteristics, 
-        that can be distinguished from healthy plants using image classification machine learning techniques.""")
+        "We hypothesise that mildew-infected leaves exhibit distinct visual characteristics, \n\n"
+        "that can be distinguished from healthy leafs using image classification machine learning techniques, \n\n"
+        "with an accuracy of at least 95%.")
         ### add further details on validation here 
 

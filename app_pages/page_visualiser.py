@@ -21,7 +21,8 @@ def page_visualiser_body():
           diff_between_avgs = plt.imread(f"outputs/{version}/avg_diff.png")
 
           st.warning(
-            f"We notice that while some visual difference is noticeable between a healthy leaf and a powdery mildew infected leaf.")
+            f"We notice that while some visual difference is noticeable between a healthy leaf and a powdery mildew infected leaf,"
+            f"the images do not provide guidance from which we can intuitively differentiate a healthy from unhealthy leaf.")
             #show difference
           st.image(diff_between_avgs, caption='Difference between average images')
 
@@ -55,12 +56,10 @@ def image_montage(dir_path, label_to_display, nrows, ncols, figsize=(15,10)):
           f"You requested a montage with {nrows * ncols} spaces")
       return
     
-
     # create list of axes indices based on nrows and ncols
     list_rows= range(0,nrows)
     list_cols= range(0,ncols)
     plot_idx = list(itertools.product(list_rows,list_cols))
-
 
     # create a Figure and display images
     fig, axes = plt.subplots(nrows=nrows,ncols=ncols, figsize=figsize)
