@@ -16,6 +16,8 @@ def ml_image_test_body():
     if uploaded_file is not None:
         image = Image.open(uploaded_file)
         st.image(image, caption='Uploaded Leaf Image', use_column_width=True)
+        # convert
+        image_array = np.array(image)
 
     # preprocess
     version = "v1"

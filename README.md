@@ -57,7 +57,7 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ## Credits 
 
-* Code Institute walkthrough project 'Malaria Detector' by Gyan Shashwat, provided guidance on structuring this Machine Learning Project.
+* Code Institute walkthrough project 'Malaria Detector' by Gyan Shashwat, provided model code and guidance on structuring this Machine Learning Project.
 https://github.com/GyanShashwat1611/WalkthroughProject01/
 
 ### Content 
