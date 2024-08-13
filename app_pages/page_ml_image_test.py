@@ -19,14 +19,18 @@ def ml_image_test_body():
         # convert
         image_array = np.array(image)
 
-    # preprocess
-    version = "v1"
-    processed_image = resize_input_image(image, version)
+        # preprocess
+        version = "v1"
+        processed_image = resize_input_image(image, version)
 
-    #prediction
-    pred_proba, pred_class = load_model_and_predict(processed_image, version)
+        #prediction
+        pred_proba, pred_class = load_model_and_predict(processed_image, version)
 
-    #display
-    st.write(f"The predictive analysis indicates the leaf is {pred_class}.")
-    st.write(f"Prediction confidence: {pred_proba * 100:.2f}%")
+        #display
+        st.write(f"The predictive analysis indicates the leaf is {pred_class}.")
+        st.write(f"Prediction confidence: {pred_proba * 100:.2f}%")
+
+    else:
+    # Instructions when no image is uploaded
+        st.write("Please upload an image of a leaf to proceed with the analysis.")
 
